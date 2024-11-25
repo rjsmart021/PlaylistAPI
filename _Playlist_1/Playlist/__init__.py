@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from database_details import DataBaseDetails
 
+
 app = Flask(__name__)
 db_details = DataBaseDetails()
 try:
