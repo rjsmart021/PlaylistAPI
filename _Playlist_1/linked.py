@@ -1,5 +1,6 @@
 global_song_id = 0
 
+
 # nodes for the doubly linked list hold song information as well as next and prev pointers
 class SongNode:
     def __init__(self, title, artist, album, genre):
