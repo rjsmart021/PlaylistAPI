@@ -15,7 +15,6 @@ class Songs(db.Model):
     Artist = db.Column(db.String(100), nullable=False)
     Genre = db.Column(db.String(20), nullable=False)
 
-
 class Playlist(db.Model):
     """
         Playlist Relation Model.
