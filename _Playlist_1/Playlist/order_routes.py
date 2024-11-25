@@ -7,7 +7,6 @@ from Playlist.schemas import OrdersSchema
 
 order_schema = OrdersSchema()
 
-
 @app.route('/orders', methods=['POST'])
 def place_order():
     """
