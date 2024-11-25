@@ -4,7 +4,6 @@ from Playlist import app
 
 ma = Marshmallow()
 
-
 class CustomerSchema(ma.Schema):
     Songs_id = fields.Integer(dump_only=True)
     Songs_name = fields.String(required=True)
