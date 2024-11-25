@@ -6,7 +6,6 @@ from Playlist.schemas import ProductSchema
 
 product_schema = ProductSchema()
 
-
 # Create Playlist
 @app.route('/Playlist', methods=['POST'])
 def add_product():
