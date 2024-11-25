@@ -7,7 +7,6 @@ from Playlist.schemas import SongsSchema
 
 Songs_schema = SongsSchema()
 
-
 @app.route('/songs', methods=['POST'])
 def add_Songs():
     """
